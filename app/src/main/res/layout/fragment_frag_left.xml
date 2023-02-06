@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff2f1f5"
+    tools:context=".Fragment.Fragcamera.FragLeft">
+  <androidx.core.widget.NestedScrollView
+      android:background="@drawable/o_shape_w"
+      android:layout_margin="5dp"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          <com.example.forum.View.MyGridview
+              android:id="@+id/grid_view"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:listSelector="@null"
+              android:horizontalSpacing="10dp"
+              android:verticalSpacing="10dp"
+              android:numColumns="2"
+              android:scrollbars="none"
+              android:stretchMode="columnWidth"
+          />
+      </LinearLayout>
+  </androidx.core.widget.NestedScrollView>
+</LinearLayout>

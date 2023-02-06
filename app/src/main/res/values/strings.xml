@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">全民大学习</string>
+    <string name="Home">首页</string>
+    <string name="Circles">圈子</string>
+    <string name="Chitchat">聊天</string>
+    <string name="Me">我的</string>
+    <string name="Recommend">推荐</string>
+    <string name="GarageKit">要闻</string>
+    <string name="Techno">思想</string>
+    <string name="Book">亮点</string>
+    <string name="Rests">其它</string>
+    <string name="MyCircle">我的圈子</string>
+    <string name="Plaza">圈子广场</string>
+    <string name="Attention">关注</string>
+    <string name="Hot">热门</string>
+    <string name="Game">游戏</string>
+    <string name="School">校园</string>
+    <string name="Fish">钓鱼</string>
+    <string name="Car">汽车</string>
+    <string name="Science">科学</string>
+    <string name="Sports">体育</string>
+
+    <string name="Login">点击登录</string>
+    <string name="Show">动态</string>
+    <string name="Focus">关注</string>
+    <string name="Fans">粉丝</string>
+
+    <string name="Download">离线下载</string>
+    <string name="History">历史记录</string>
+    <string name="Collect">我的收藏</string>
+    <string name="Start">稍后再看</string>
+    <string name="ReceiveAward">领取限定头像挂件，赢活动奖金</string>
+    <string name="FirstVideo">发布你的第一个视频</string>
+    <string name="Money">发布有奖</string>
+    <string name="RecommendServe">推荐服务</string>
+    <string name="MyBook">我的课程</string>
+    <string name="GratisSim">免流量服务</string>
+    <string name="Clothing">个性装扮</string>
+    <string name="MyMoney">我的钱包</string>
+    <string name="GameCentre">游戏中心</string>
+    <string name="VipCentre">会员购中心</string>
+    <string name="LiveStreaming">直播中心</string>
+    <string name="Creation">创作中心</string>
+
+    <string name="Intro">简介</string>
+    <string name="Discuss">评论</string>
+    <string name="InsertCoins">投币</string>
+    <string name="Share">分享</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="GetBack">取消</string>
+    <string name="Search">搜索</string>
+    <string name="SearchHistory">搜索历史</string>
+    <string name="TodayHot">今日热搜</string>
+    <string name="Null">搜索内容为null</string>
+
+    <string name="Text">文字</string>
+    <string name="Voide">视频</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

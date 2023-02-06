@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">forum</string>
+    <string name="Home">Home</string>
+    <string name="Circles">Circles</string>
+    <string name="Chitchat">Chitchat</string>
+    <string name="Me">Me</string>
+    <string name="Recommend">Suggest</string>
+    <string name="GarageKit">News</string>
+    <string name="Techno">Thought</string>
+    <string name="Book">Bright</string>
+    <string name="Rests">Rests</string>
+    <string name="MyCircle">MyCircle</string>
+    <string name="Plaza">Plaza</string>
+    <string name="Attention">Attention</string>
+    <string name="Hot">HotDoor</string>
+    <string name="Game">Game</string>
+    <string name="School">School</string>
+    <string name="Fish">Fish</string>
+    <string name="Car">Car</string>
+    <string name="Science">Science</string>
+    <string name="Sports">Sports</string>
+
+    <string name="Login">Login</string>
+    <string name="Show">Show</string>
+    <string name="Focus">Focus</string>
+    <string name="Fans">Fans</string>
+
+    <string name="Download">Download</string>
+    <string name="History">History</string>
+    <string name="Collect">Collect</string>
+    <string name="Start">Start</string>
+    <string name="ReceiveAward">ReceiveAward</string>
+    <string name="FirstVideo">FirstVideo</string>
+    <string name="Money">Money</string>
+    <string name="RecommendServe">RecommendServe</string>
+    <string name="MyBook">MyBook</string>
+    <string name="GratisSim">GratisSim</string>
+    <string name="Clothing">Clothing</string>
+    <string name="MyMoney">MyMoney</string>
+    <string name="GameCentre">GameCentre</string>
+    <string name="VipCentre">VipCentre</string>
+    <string name="LiveStreaming">LiveStreaming</string>
+    <string name="Creation">Creation</string>
+
+    <string name="Intro">Intro</string>
+    <string name="Discuss">Discuss</string>
+    <string name="InsertCoins">InsertCoins</string>
+    <string name="Share">Share</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="GetBack">GetBack</string>
+    <string name="Search">Search</string>
+    <string name="SearchHistory">SearchHistory</string>
+    <string name="TodayHot">TodayHot</string>
+    <string name="Null">Null</string>
+
+    <string name="Text">Text</string>
+    <string name="Voide">Voide</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

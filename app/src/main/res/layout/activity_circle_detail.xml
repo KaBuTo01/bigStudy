@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/beijing"
+    tools:context=".CircleDetailActivity">
+    <LinearLayout
+        android:background="@color/white"
+        android:id="@+id/top"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/get_back"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/getbackpro"
+            />
+        <TextView
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tv"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/head_c"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:layout_margin="20dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:id="@+id/head"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/b" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@id/head_c"
+                    android:text="给互粉互粉胡"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/name"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/head_c"
+                    android:text="给互粉互粉胡" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    app:cardCornerRadius="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="关注"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/o_shape">
+                    <LinearLayout
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp">
+                        <androidx.cardview.widget.CardView
+                            android:layout_marginStart="10dp"
+                            android:layout_gravity="center_vertical"
+                            app:cardBackgroundColor="@color/black"
+                            app:cardCornerRadius="10dp"
+                            android:layout_width="26dp"
+                            android:layout_height="14dp">
+                            <TextView
+                                android:textColor="@color/white"
+                                android:text="圈规"
+                                android:textSize="8sp"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        </androidx.cardview.widget.CardView>
+                        <TextView
+                            android:layout_marginStart="10dp"
+                            android:layout_gravity="center_vertical"
+                            android:text="进来看看圈规"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <LinearLayout
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_marginStart="10dp"
+                        android:layout_gravity="center_vertical"
+                        app:cardBackgroundColor="@color/black"
+                        app:cardCornerRadius="10dp"
+                        android:layout_width="26dp"
+                        android:layout_height="14dp">
+                        <TextView
+                            android:textColor="@color/white"
+                            android:text="置顶"
+                            android:textSize="8sp"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:text="昨天隔壁老奶奶内裤不见了"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        >
+        <ImageView
+            android:id="@+id/add"
+            android:src="@drawable/add_c"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+</RelativeLayout>
